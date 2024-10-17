@@ -1,0 +1,138 @@
+body {
+    background-image: url(Img/textura-branca.jpg);
+    font-family: Calibri;
+    margin: 0;
+    text-align: center;
+    color: rgb(105, 105, 105);
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    background-image: url(Img/textura-branca.jpg);
+    margin: 0;
+}
+
+h1 {
+    color: rgb(105, 105, 105);
+}
+
+.img_hd {
+    max-width: 50px;
+    height: 50px;
+}
+
+p {
+    color: rgb(255,250,250);
+    font-size: 16pt;
+    font-style: italic;
+    font-weight: bold;
+}
+
+span {
+    color: rgb(255,165,0);
+}
+
+th {
+    color: rgb(30,144,255);
+    font-weight: bold;
+}
+
+th, td {
+    Border: 2px double rgb(255,250,250);
+    text-align: center;
+    
+}
+
+td {
+    color: rgb(255,250,250);
+    height: 100px;
+}
+
+.col_1 {
+    width:15%;
+}
+
+.col_2 {
+    width: 5%;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.col_3 {
+    width:60%;
+    font-size: 12pt;
+}
+.img_table {
+    width: 60%;
+}
+
+.fonte_ref {
+    color: rgb(255,215,0);
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 20px;
+}
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    font-size: 12pt;
+}
+
+.container {
+    display: flex;
+    justify-content: end;
+}
+
+.div_main {
+    width: 85%;
+    background-image: url(Img/textura-cinza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 2px dotted black;
+    border-right: 2px dotted rgb(255,250,250);
+    padding: 15px;
+    margin-top: 80px;
+    margin-right: 15%;
+    height: 70vw;
+}
+
+.div_links {
+    width: 15%;
+    margin-top: 80px;
+    background-image: url(Img/textura-branca.jpg);
+    position: fixed;
+    
+}
+
+.img_link {
+    width: 18%;
+    margin-right: 3%;
+}
+
+
+
+ul {
+    text-align: left;
+    font-weight: bold;
+    padding: 5%;
+}
+
+tr:hover {
+    opacity: 0.75;
+}
+
+li:hover {
+    background-color: rgb(105,105,105);
+    opacity: 0.75;
+    color: rgb(255,250,250);
+}
